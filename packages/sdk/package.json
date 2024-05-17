@@ -28,7 +28,7 @@
     "@proto-kit/protocol": "*",
     "@proto-kit/sequencer": "*",
     "@proto-kit/library": "*",
-    "reflect-metadata": "^0.1.13",
+    "reflect-metadata": "^0.2.2",
     "o1js": "1.1.0",
     "tsyringe": "^4.7.0"
   },
