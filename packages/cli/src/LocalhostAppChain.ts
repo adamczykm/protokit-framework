@@ -92,9 +92,16 @@ export class LocalhostAppChain<
         },
       },
       Sequencer: {
+        LocalTaskWorkerModule: {
+          StateTransitionTask: {},
+          RuntimeProvingTask: {},
+          StateTransitionReductionTask: {},
+          BlockReductionTask: {},
+          BlockProvingTask: {},
+          BlockBuildingTask: {},
+        },
         Database: {},
         UnprovenProducerModule: {},
-
         GraphqlServer: {
           port: 8080,
           host: "0.0.0.0",
